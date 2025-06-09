@@ -1,0 +1,18 @@
+identifier: linum_dev
+name: Linum
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+ram: 512
+flash: 2048
+supported:
+  - uart
+  - gpio
+  - i2c
+  - pwm
+  - netif:eth
+  - spi
+  - can
+vendor: witte
